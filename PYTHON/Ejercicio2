@@ -1,0 +1,37 @@
+#EJERCICIO 2:
+
+numero1 = int(input("Introduce un número\n"))
+respuesta = 1
+almacenado = numero1
+historial = ""
+while respuesta != 4:
+    if(respuesta == 2):
+        almacenado = int(input("Introduce el primer número\n"))
+    elif(respuesta == 1):
+    operacion = int(input("¿Qué quieres hacer?\n"
+        "1. sumar\n"
+        "2. resta\n"
+        "3. multiplicacion\n"
+        "4. division\n"))
+
+    numero2 = int(input("Introduce otro numero\n"))
+    if(operacion == 1):
+        almacenado += numero2
+        historial += almacenado, " + ", numero2, " = ", suma
+    elif(operacion == 2):
+        almacenado -= numero2
+        historial += almacenado, " + ", numero2, " = ", resta
+    elif(operacion == 3):
+        almacenado *= numero2
+        historial += almacenado, " + ", numero2, " = ", multiplicacion
+    elif(operacion == 4):
+        almacenado /= numero2
+        historial += almacenado, " + ", numero2, " = ", division
+
+    print("El resultado es: ",almacenado)
+    respuesta = int(input("¿Con qué operación quieres seguir?\n"
+            "1. Continuar haciendo cálculos\n"
+            "2. Reiniciar la calculadora\n"
+            "3. Historial \n"
+            "4. Cerrar la calculadora\n"))
+
