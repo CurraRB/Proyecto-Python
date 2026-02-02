@@ -1,1 +1,1 @@
-Albergará todos los pasos de mi proyecto.
+Albergará todos los pasos de mi proyecto (entregas 1, 2 y 3).
